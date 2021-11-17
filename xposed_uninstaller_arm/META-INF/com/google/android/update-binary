@@ -1,0 +1,15 @@
+#!/system/bin/sh
+
+####################
+# INSTALL SCRIPT For VMOSTOOL
+####################
+
+. /tool_files/main/exbin/utils
+ZIPFILE=$3;
+######################
+# Config (Before)
+######################
+echo "- Extract zip to temporary directory"
+unzip -o "$ZIPFILE" 'META-INF/com/google/android/flash-script.sh' -d ./
+unzip -o "$ZIPFILE" 'system/*' -d ./
+ . ./META-INF/com/google/android/flash-script.sh

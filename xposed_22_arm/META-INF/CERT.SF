@@ -1,0 +1,46 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: RVj3LzDiuM8eWBC6n8vmHePv55k=
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest-Manifest: QNdpjOZL0wObLXYtJOSqOZLooV8=
+
+Name: system/lib/libart-compiler.so
+SHA1-Digest-Manifest: 6BWE06WBaKuGEb2RrgfSbOFxOSA=
+
+Name: system/framework/XposedBridge.jar
+SHA1-Digest-Manifest: jm2P/kIqgHHvuByqceZfDINXj4E=
+
+Name: system/lib/libxposed_art.so
+SHA1-Digest-Manifest: Th2vBwSM5NiC2N0y7hsMXy4l1Vw=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest-Manifest: 3GpZv+qNNRsLkvb5zWI7/HMhrcw=
+
+Name: META-INF/com/google/android/flash-script.sh
+SHA1-Digest-Manifest: McIv04BNcFen7sdIudxnffv6C7Q=
+
+Name: system/bin/app_process32_xposed
+SHA1-Digest-Manifest: 072YrIrCJxdgkHOuLZb4TcMlZFQ=
+
+Name: system/bin/dex2oat
+SHA1-Digest-Manifest: pur4qajuzSCtKALp+r+n3O0hwdA=
+
+Name: system/bin/oatdump
+SHA1-Digest-Manifest: 4izK4jK5DtdauPTxnPwWkTgNDbA=
+
+Name: system/lib/libart-disassembler.so
+SHA1-Digest-Manifest: k1PE3U5kG/gwbC5P2sBpmh4fLzA=
+
+Name: system/bin/patchoat
+SHA1-Digest-Manifest: jPXXItldsgWA4ykRj0hoalDt92w=
+
+Name: system/lib/libart.so
+SHA1-Digest-Manifest: eOKXvQhKQ6KVmD5zgIH6PpW+S/A=
+
+Name: system/xposed.prop
+SHA1-Digest-Manifest: Cu0Up613+DtT70yDExgh/Al95PE=
+
+Name: system/lib/libsigchain.so
+SHA1-Digest-Manifest: r5KkYQ0QfrM1flKENSOtD13R5+k=
+

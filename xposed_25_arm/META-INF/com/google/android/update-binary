@@ -1,0 +1,25 @@
+#!/system/bin/sh
+
+####################
+# INSTALL SCRIPT For VMOSTOOL
+####################
+
+. /tool_files/main/exbin/utils
+ZIPFILE=$3;
+######################
+# Config (Before)
+######################
+echo "- Extract zip to temporary directory"
+unzip -o "$ZIPFILE" 'META-INF/com/google/android/flash-script.sh' -d ./
+unzip -o "$ZIPFILE" 'system/*' -d ./
+mktouch(){
+  mkdir -p ${1%/*} 2>/dev/null
+  [ -z $2 ] && touch $1 || echo $2 > $1
+  chmod 644 $1
+}
+
+ mktouch /data/user_de/0/de.robv.android.xposed.installer/log/error.log
+  mktouch /data/data/de.robv.android.xposed.installer/log/error.log
+
+ . ./META-INF/com/google/android/flash-script.sh
+
