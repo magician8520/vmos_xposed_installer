@@ -9,7 +9,7 @@ Xposed is a framework for modules that can change the behavior of the system and
 
 ## How to install Xposed for VMOS
 
-1. You need [GeekTool](http://huskydg.github.com/vmos/geektool) Terminal, install if not
+1. You need [GeekTool](http://huskydg.github.io/vmos/geektool) Terminal, install if not
 
 3. Put zip to `/sdcard/toolflash`
 
